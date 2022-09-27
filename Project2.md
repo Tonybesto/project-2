@@ -138,7 +138,15 @@ The LEMP stack is now fully configured. In the next step, we’ll create a PHP s
 we can do this by creating a test PHP file in our document root. let's open a new file called info.php:
 
 **`sudo nano /var/www/projectLEMP/info.php`**
+
+
+
+
+
 ![NGINX php info page](./Images/PHP%20code.PNG)
+
+
+
 
 we can now access this page in the web browser by visiting the domain name or public IP address set up in the Nginx configuration file, followed by /info.php:
 
